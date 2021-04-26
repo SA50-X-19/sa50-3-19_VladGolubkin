@@ -1,0 +1,275 @@
+* {
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      box-sizing: border-box;
+}
+body {
+      background-color: #02160b;
+}
+.wrapper {
+      display: flex;
+      justify-content: center;
+}
+.header {
+      background-image: url(./img/Rectangle.jpg);
+      background-position: center;
+      height: 780px;
+      width: 100%;
+      max-width: 1440px;
+      display: flex;
+      justify-content: space-around;
+}
+.obolocka {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+}
+a {
+      display: block;
+      text-decoration: none;
+      color: white;
+}
+
+.header_left {
+      width: 100%;
+      max-width: 240px;
+      height: 80px;
+}
+.menu_left{
+      width: 100%;
+      height: 100%;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 60px; 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+      font-style: normal;
+      text-align: left;          
+}
+.wildlife_and_logo {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around; 
+      align-items: center;     
+}
+.isprav {
+      display: flex;
+}
+
+.header_right {
+      width: 100%;
+      max-width: 480px;
+      height: 80px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.menu {
+      width: 100%;
+      height: 100%;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 60px; 
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;     
+}
+.menu_list {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+.button {
+      height: 50px;
+      width: 120px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 27px;
+      letter-spacing: 0em;
+      text-align: center;
+      border: 2px solid #CD6326;
+      box-sizing: border-box;
+      border-radius: 5px;
+      background-color: Transparent;
+      color: white;
+}
+
+.button:hover {
+      background-color: #CD6326;
+}
+.menu_items:hover {
+      transform: translateY(-5px);
+      transition: .6s ease;
+}
+
+.box {
+      height: 180px;
+}
+.box2 {
+      height: 240px;
+}
+
+.survival {
+      width: 274px;
+      height: 340px;
+}
+.surv_list {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.el1 {
+      font-size: 48px;
+      letter-spacing: 2px;
+      color: #CD6326;
+      width: 200px;
+      height: 100px;
+}
+.el2 {
+      width: 300px;
+      height: 170px;
+      font-size: 18px;
+      color: #F7F7F7;
+      line-height: 30px;
+}
+.donate {
+      width: 160px;
+      height: 60px;
+      background: #CD6326;  
+      border-radius: 5px;    
+      line-height: 27px;
+      text-align: center;
+      font-size: 23px;
+      color: white;
+}
+.donate:hover {
+      transform: translateY(-5px);
+      transition: .6s ease;
+}
+
+/*  7 laba  */
+.wrap {
+      display: flex;
+      justify-content: center;
+}
+.last_articles {
+      background-color:#CCCCCC;
+      max-width: 1440px;
+      width: 100%;
+      height: 1368px;
+}
+
+.Zagolovok {
+      height: 368px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.stul {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 48px;
+      line-height: 72px;
+      text-align: center;
+      color: #333333;
+}
+.pod_stul {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 24px;
+      line-height: 36px;
+      color: #666666;
+      text-align: center;
+}
+
+.block_struktura {
+      height: 360px;
+      width: 100%;
+      max-width: 1440px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+}
+
+.block1 {
+      background-image: url(./img/bl1.svg);
+      width: 300px;
+      height: 360px;
+}
+.block2 {
+      background-image: url(./img/bl2.svg);
+      width: 300px;
+      height: 360px;
+}
+.block3 {
+      background-image: url(./img/bl3.svg);
+      width: 300px;
+      height: 360px;
+}
+
+.b {
+      font-size: 22px;
+      line-height: 36px;
+      text-align: center;
+      color: #F7F7F7;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.block:hover {
+      transform: scale(-1);
+      transition: 2s;
+}
+
+img { pointer-events: none; }
+
+.text_area {
+      width: 100%;
+      max-width: 1440px;
+      height: 638px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+}
+.text {
+      text-align: center;
+      height: 80px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 27px;
+      line-height: 40px;
+      color: #333333;
+}
+
+.forma {
+      
+}
+
+.f {
+      display: flex;
+}
+
+.email {
+      width: 541px;
+      height: 59px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 23px;
+      line-height: 27px;
+      color: #666666;
+      background-color: #CCCCCC;
+      border-radius: 5px 0px 0px 5px;
+}
+
+.send {
+      border-radius: 0px 5px 5px 0px;
+      width: 120px;
+      height: 59px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 23px;
+      line-height: 27px;
+      align-items: center;
+      text-align: center;
+      color: #F7F7F7;
+      background: #CD6326;
+}
+.send:active {
+      background-color: darkgrey;
+}
