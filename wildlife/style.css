@@ -7,6 +7,9 @@
 body {
       background-color: #02160b;
 }
+body {
+  background-color: #02160b
+}
 .wrapper {
       display: flex;
       justify-content: center;
@@ -100,6 +103,7 @@ a {
 .button:hover {
       background-color: #CD6326;
 }
+
 .menu_items:hover {
       transform: translateY(-5px);
       transition: .6s ease;
@@ -272,4 +276,37 @@ img { pointer-events: none; }
 }
 .send:active {
       background-color: darkgrey;
+
+}
+.el1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #CD6326;
+  width: 200px;
+  height: 100px;
+}
+.el2 {
+  width: 300px;
+  height: 170px;
+  left: 120px;
+  top: 322px;
+  font-size: 18px;
+  color: #F7F7F7;
+  line-height: 30px;
+}
+.donate {
+  width: 160px;
+  height: 60px;
+  left: 120px;
+  top: 479px;
+  background: #CD6326;  
+  border-radius: 5px;    
+  line-height: 27px;
+  text-align: center;
+  font-size: 23px;
+  color: white;
+}
+.donate:hover {
+  transform: translateY(-5px);
+  transition: .6s ease;
 }
