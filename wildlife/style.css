@@ -7,6 +7,9 @@
 body {
       background-color: #02160b;
 }
+body {
+  background-color: #02160b
+}
 .wrapper {
       display: flex;
       justify-content: center;
@@ -81,6 +84,7 @@ a {
 .button:hover {
       background-color: #CD6326;
 }
+
 .menu_items:hover {
       transform: translateY(-5px);
       transition: .6s ease;
@@ -256,7 +260,16 @@ img { pointer-events: none; }
 }
 .send:active {
       background-color: darkgrey;
+
 }
+.el1 {
+  font-size: 48px;
+  letter-spacing: 2px;
+  color: #CD6326;
+  width: 200px;
+  height: 100px;
+}
+
 
 /* foot */
 
@@ -324,4 +337,5 @@ img { pointer-events: none; }
 .ani:hover {
       transform: rotate(360deg);
       transition: .6s;
+
 }
