@@ -1,0 +1,95 @@
+@media screen and (max-width: 770px){ 
+      .obolocka {
+            display: none;
+      }
+      .burger {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+      }
+      .menu_list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: end;
+      }
+      .survival_med {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 400px;
+      }
+      .header_right {
+            max-width: 100%;
+            height: auto;
+      }
+}
+
+@media screen and (max-width: 1050px){ 
+      .last_articles {
+            height: 1900px;
+      }
+      .block_struktura {
+            flex-direction: column;
+            justify-content: space-between;
+            transform: scale(0.95);
+            height: 1400px;
+      }
+      .Zagolovok {
+            height: 200px;
+      }
+      .text_area {
+            height: 200px;
+            justify-content: end;
+      }
+      .block {
+            transform: rotate(90deg);
+      }
+      .block:hover {
+            transform: rotate(270deg);
+            transition: 1s;
+      }
+      .forma {
+            width: 96%;
+            max-width: 660px;
+      }
+}
+
+@media screen and (max-width: 500px){ 
+      .text {
+            height: 100px;
+      }
+}
+@media screen and (max-width: 480px){ 
+      .f {
+            display: inline;
+      }
+      .email {
+            width: 96%;
+            border-radius: 5px 5px 0px 0px;
+      }
+      .send {
+            width: 96%;
+            border-radius: 0px 0px 5px 5px;
+      }
+}
+
+@media screen and (max-width: 820px){ 
+      .podblock {
+            flex-direction: column;
+      }
+      .sp2 {
+            width: 100%;
+      }
+}
+
+@media screen and (max-width: 400px){ 
+      .ul2 {
+            flex-direction: column;
+            align-items: center;
+      }
+}

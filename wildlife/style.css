@@ -339,3 +339,9 @@ img { pointer-events: none; }
       transition: .6s;
 
 }
+
+/*     KONCOVOCKA     */
+
+.burger {
+      display: none;
+}
